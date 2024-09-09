@@ -29,7 +29,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 85%);
   font-size: 1.5rem;
 }
 
@@ -49,8 +49,8 @@ a {
 }
 
 .user-img-container {
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   margin-bottom: 1rem;
 }
 
@@ -67,7 +67,7 @@ a {
 }
 
 .user-info-container p {
-  color: hsl(75, 94%, 57%);
+  color: hsl(75, 72%, 48%);
   font-size: 1.4rem;
 }
 
@@ -80,7 +80,7 @@ a {
 }
 
 .links-container p {
-  color: hsl(0, 1%, 84%);
+  color: hsl(0, 1%, 80%);
   font-size: 1.4rem;
 }
 

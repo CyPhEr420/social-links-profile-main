@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 95%);
+  font-size: 1.5rem;
+}
+
+.profile-card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2.5rem;
+  border-radius: 5px;
+  width: 35rem;
+}
+
+.user-info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.7rem;
+  min-width: 90%;
+}
+
+.user-img-container {
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+
+.user-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.user-info-container h1 {
+  font-size: 2.2rem;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.5px;
+}
+
+.user-info-container p {
+  color: hsl(75, 94%, 57%);
+  font-size: 1.4rem;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+
+.links-container p {
+  color: hsl(0, 1%, 84%);
+  font-size: 1.4rem;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.link {
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+  text-align: center;
+  padding: 1.4rem;
+  border-radius: 5px;
+}
